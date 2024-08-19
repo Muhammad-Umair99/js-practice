@@ -71,5 +71,22 @@
 // }
 // console.log(itemsPrice);
 
+// ARRAY METHOD
+//push method
+// let veggies = ["potato", "onion","carrot","ladtfinger"];
+// veggies.push("cocumber","shimlamirch");
+// console.log(veggies);
+
+//pop method
+// let veggies = ["potato", "onion","carrot","ladyfinger"];
+// let deletItems = veggies.pop();
+// console.log(veggies);
+// console.log(deletItems);
+
+//toString method
+// let veggies = ["potato", "onion","carrot","ladyfinger"];
+// console.log(veggies.toString());
+// console.log(veggies);
+
 
 
