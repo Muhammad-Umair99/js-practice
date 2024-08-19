@@ -51,11 +51,25 @@
 
 // console.log(`let average marks of class is ${average}` );
 
+//Q2) for a given array with prices of fove items [250,645,300,900,50].all items have an offer of 10% off on them.Change the array to store the final price after applying offer.   -->
+//i)
+// let itemsPrice = [250,645,300,900,50];
+// let i = 0;
+// for(let val of itemsPrice){
+//         let offer = val / 10;
+//         itemsPrice[i] = itemsPrice[i] - offer;
+//         console.log(`price after discount ${itemsPrice[i]}`)
+//         i++;
+// }
 
+//ii)
+// let itemsPrice = [250,645,300,900,50];
+// for(let i = 0; i < itemsPrice.length; i++){
+//     let offer = itemsPrice[i] / 10;
+//     itemsPrice[i] -= offer;
 
-
-
-
+// }
+// console.log(itemsPrice);
 
 
 
