@@ -247,6 +247,8 @@
 // console.log(str.charAt(3));
 
 // practice question
-let fullName = prompt("enter your full name");
-let userName  = "@" + fullName + fullName.length;
-console.log(userName);
+// let fullName = prompt("enter your full name");
+// let userName  = "@" + fullName + fullName.length;
+// console.log(userName);
+
+
