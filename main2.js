@@ -71,6 +71,13 @@
 // }
 // console.log(itemsPrice);
 
+// const price = [250,645,300,900,50];
+// let offPrice = 0;
+// for (let val of price) {
+//   offPrice = val - (val * 10) / 100;
+//   console.log(offPrice);
+// }
+
 // ARRAY METHOD
 //push method
 // let veggies = ["potato", "onion","carrot","ladtfinger"];
@@ -84,9 +91,9 @@
 // console.log(deletItems);
 
 //toString method
-// let veggies = ["potato", "onion","carrot","ladyfinger"];
-// console.log(veggies.toString());
-// console.log(veggies);
-
+let veggies = ["potato", "onion","carrot","ladyfinger"];
+console.log(veggies.toString());
+console.log(veggies);
+    
 
 
