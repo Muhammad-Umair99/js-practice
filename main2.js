@@ -91,9 +91,41 @@
 // console.log(deletItems);
 
 //toString method
-let veggies = ["potato", "onion","carrot","ladyfinger"];
-console.log(veggies.toString());
-console.log(veggies);
+// let veggies = ["potato", "onion","carrot","ladyfinger"];
+// console.log(veggies.toString());
+// console.log(veggies);
     
+// concat method
+// let marvelHeroes = ["thor","spiderman","ironman"];
+// let dcHeroes = ["superman","batman"];
+// let pakHero = ["Quaid Azam","Alama Iqbal"];
+// let hero = marvelHeroes.concat(dcHeroes,pakHero);
+// console.log(hero);
 
+//unshift method
+// let marvelHeroes = ["thor","spiderman","ironman"];
+// marvelHeroes.unshift("hulk", "witch");
+// console.log(marvelHeroes);
 
+//shift method
+// let marvelHeroes = ["thor","spiderman","ironman"];
+// marvelHeroes.shift();
+// console.log(marvelHeroes);
+
+//slice method
+// let marvelHeroes = ["thor","spiderman","ironman","antman","dr.strange"];
+// console.log(marvelHeroes);
+// console.log(marvelHeroes.slice(1,4))
+
+//splice method
+// let arr =[55,99,65,78,100];
+// arr.splice(2,2,200,300);    
+
+//add element
+// arr.splice(2,0,50);
+
+//delete element
+// arr.splice(2,1);
+
+//replace element
+// arr.splice(1,1,100);
