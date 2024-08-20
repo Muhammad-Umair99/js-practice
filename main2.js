@@ -129,3 +129,40 @@
 
 //replace element
 // arr.splice(1,1,100);
+
+
+//chat practice
+//q1) BASICS ARRAY OPERATIONS
+// 1)Create an Array: Create an array of 5 numbers and log it to the console.
+
+// 2)Access Elements: Access and log the first and last elements of the array.
+
+// 3)Add and Remove Elements:
+
+// Add a number to the beginning of the array.
+// Remove the last element of the array.
+// Add a number to the end of the array.
+// 4)Find the Length: Log the length of the array.
+
+// let num = [10,20,30,40,50];
+// console.log(num);
+// console.log(num[0]);
+// console.log(num[4]);  
+
+// num.unshift(5);
+// num.pop();
+// num.push(60);
+
+// console.log(num.length);
+
+
+//Q2)
+    // let companies = ["google","microsoft","system limiting","uber"];
+
+    // companies.shift();
+
+    // companies.splice(2,1,"ola");
+
+    // companies.push("amazon");
+
+
