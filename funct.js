@@ -5,7 +5,7 @@
 // myFunction();
 
 // function myFunction(msg){   //parameter => input
-    
+
 //     console.log(msg)
 // }
 // myFunction("i am umair"); //argument  
@@ -36,7 +36,7 @@
 
 
 
-  //ARROW FUCTION 
+//ARROW FUCTION 
 //compact way of writing a function
 
 ////Normal Function:
@@ -54,13 +54,39 @@
 //     console.log(a + b);        //return be kar sakte he
 //   };
 //   arrowSum(4,4);
-  
-  
+
+
 //   const arrMul = (a , b) => {
 //   return a * b;
 //   }
-  
+
 //print karwana ke liye be use kar sakte he arrow frnction
 // const printHellow = () => {
 //     console.log("helllow");     
 // };
+
+
+//PRACTICE QUESTIONS
+//Q1) CREATE A FUNCTION USING  "FUNCTION" KEYWORD THAT TAKES A STRING AS AN ARGUMENT AND RETURNS THE MNUMBER OF VOWELS IN STRING.
+
+// function countVowels(str) {
+//     let count = 0;
+//     for (let char of str) {
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u")
+//             count++;
+//     }
+//     // console.log(count);
+//     return count;
+// }   
+
+
+//Q2) CREATE AN ARROW FUNCTION TO PERFORM THE SAME TASK
+     const countVow = (str) => {
+        let count = 0;
+    for (let char of str) {
+        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u")
+            count++;
+    }
+    // console.log(count);
+    return count;
+     }
