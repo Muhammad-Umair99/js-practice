@@ -35,3 +35,32 @@
 
 
 
+
+  //ARROW FUCTION 
+//compact way of writing a function
+
+////Normal Function:
+// function sum(a, b) {
+//     return a + b;
+// }
+
+//Arrow Function:
+// const sum = (a, b) => a + b;
+
+
+
+//arrow function
+// const arrowSum = (a, b) => {
+//     console.log(a + b);        //return be kar sakte he
+//   };
+//   arrowSum(4,4);
+  
+  
+//   const arrMul = (a , b) => {
+//   return a * b;
+//   }
+  
+//print karwana ke liye be use kar sakte he arrow frnction
+// const printHellow = () => {
+//     console.log("helllow");     
+// };
